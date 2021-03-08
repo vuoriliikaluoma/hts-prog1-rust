@@ -1,5 +1,4 @@
-use std::io;
-use std::io::{prelude::*, BufReader};
+use std::io::{self, BufReader, prelude::BufRead};
 use std::fs::File;
 
 /** Reads wordlist.txt into Vec<String>. */
